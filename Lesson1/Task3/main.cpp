@@ -8,7 +8,7 @@ int main()
    int b = 20 ;
    a = a + b ;
    b = a -  b ;
-   a -= b ;
+   a = a - b ;
    cout << a << " " << b;
     return 0;
 }
