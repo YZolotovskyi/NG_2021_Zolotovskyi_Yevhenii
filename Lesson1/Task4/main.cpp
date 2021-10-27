@@ -22,7 +22,6 @@ int main()
        x2=(-b-sqrt(d))/(2*a);
        cout << "Two roots: " << ((x1>x2)? x2: x1) << " " << ((x1>x2)? x1: x2);
     }
-    else
        if (d==0){
           cout << " One root:" << " " << -b/(2*a) << endl;
        }
