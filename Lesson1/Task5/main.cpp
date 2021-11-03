@@ -5,15 +5,15 @@
 using namespace std;
 
 int main()
-{   double m;
-    cout << "enter the mass of the ship"<< endl;
-    cin >> m;
-    m = m/3;
-    m = ceil (m);
-    m = m - 2;
-    m = m * 300;
+{   double mass;
+    cout << "enter the mass of the ship" << endl;
+    cin >> mass;
+    mass = mass/3;
+    mass = ceil (mass);
+    mass = mass - 2;
+    mass = mass * 300;
     cout << "You need to ";
-    cout << ( m );
-    cout <<" " "fuel"<< endl;
+    cout << ( mass );
+    cout << " fuel" << endl;
     return 0;
 }
